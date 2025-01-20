@@ -26,7 +26,7 @@ time_posted_epoch long,
 foreign key (posted_by) references Account(account_id)
 ```
 
-# Requirements
+# Overview
 
 ## 1: Our API should be able to process new User registrations.
 
